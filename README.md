@@ -80,4 +80,14 @@ A pipeline in a Software Engineering team is a set of automated processes that a
 ## Master Branch and Develop Branch Breakdown
 A Project invovles a minimum of two branches to record the history of a project, the ```Master``` and ```Develop``` Branch.
 The master branch stores the official release history, whereas the develop serves as an integration branch for features. 
-It is convenient ot tag all commits into master branch with a description and version number. 
+
+The master branch at origin should be familiar to every Git user. Parallel to the master branch, another branch exists 
+called develop.
+
+The origin/master is considered to be the main branch where the source code of HEAD always reflects a ```production-ready state.```
+
+The origin/develop is considered to be the main branch where the source code of HEAD always reflects a ```state with the latest 
+delivered development changes for the next release```, also known as the“integration branch”. 
+
+When the source code in the develop branch reaches a stable point and is ready to be released, all of the changes 
+should be merged back into master somehow and then tagged with a release number
