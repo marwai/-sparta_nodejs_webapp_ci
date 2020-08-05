@@ -1,0 +1,5 @@
+.vagrant
+.vagrant/
+*.log
+App/node-modules
+app/node-modules/
