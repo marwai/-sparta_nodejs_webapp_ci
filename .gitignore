@@ -3,3 +3,4 @@
 *.log
 App/node-modules
 app/node-modules/
+.idea/
