@@ -91,3 +91,7 @@ delivered development changes for the next release```, also known as the“integ
 
 When the source code in the develop branch reaches a stable point and is ready to be released, all of the changes 
 should be merged back into master somehow and then tagged with a release number
+
+## Making Two branches in Jenkins
+Testing if new build is successful 
+Test number 1 
