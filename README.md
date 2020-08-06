@@ -92,6 +92,27 @@ delivered development changes for the next release```, also known as the“integ
 When the source code in the develop branch reaches a stable point and is ready to be released, all of the changes 
 should be merged back into master somehow and then tagged with a release number
 
-## Making Two branches in Jenkins
-Testing if new build is successful 
-Test number 1 
+## Instructions 
+1. First click on new Item to create a new project
+![Step 1](images/Step_0_clickStep_0_click.png)
+	
+2. Create a freestyle project and name is something appropriate to your project 
+![Step 2](images/step 1 creating freestyle project.png)
+
+3. Connect to the [GitHub webhook setup](link)
+
+4. Add appropriate description as shown below and have the same configuration.
+![Step 3](images/step_2_configuring_settings_in_general.png)
+
+Known Server Issues:
+- The jenkins can't run the servers when groups are larger than 4, here are some recommendations:
+	- Make new servers and divide into group sizes of 3 
+	- upgade the server size 
+	- Work one at a time and build project 
+ 
+- If you have slow server speeds, set the max # number of builds to 1  
+
+
+
+
+
